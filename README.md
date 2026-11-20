@@ -1,3 +1,5 @@
-# Calories Count
+# Food and calorie tracker
 
-Calories Count is a responsive web application designed for calculating the total calories of foods. It provides a user-friendly interface for users to add food items and it calculates the total of carbs, protein, fats and calories of the food items selected. A doughnut chart and progress bar are also present to provide a detailed view of the total calories.
+A Django app for recording foods eaten and seeing their combined calories, carbohydrates, protein and fat. A progress bar and a doughnut chart summarise the selections.
+
+The [models](myapp/models.py) separate a food’s nutritional information from a consumption entry. Follow the [views](myapp/views.py) and [dashboard template](myapp/templates/myapp/index.html) to see how a selection becomes a daily total.
